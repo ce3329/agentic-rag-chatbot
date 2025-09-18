@@ -1,0 +1,31 @@
+# Core dependencies
+python-dotenv==1.0.0
+pydantic==2.4.2
+structlog==23.1.0
+
+# Document processing
+PyPDF2==3.0.1
+python-docx==0.8.11
+python-pptx==0.6.21
+pandas==2.0.3
+markdown==3.4.4
+
+# Vector database and embeddings
+pinecone-client==3.0.0
+sentence-transformers==2.2.2
+huggingface_hub==0.19.4
+transformers==4.36.2
+
+# LLM providers
+google-generativeai==0.4.1
+groq==0.4.0
+
+# Web UI
+streamlit==1.27.2
+
+# Database
+pymongo==4.5.0
+
+# Utilities
+tqdm==4.66.1
+numpy==1.24.3
