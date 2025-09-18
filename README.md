@@ -66,7 +66,7 @@ An agent-based Retrieval-Augmented Generation (RAG) chatbot that answers user qu
 
 1. Start the chatbot:
    ```
-   python run.py
+   streamlit run app/streamlit_app.py 
    ```
 2. Open the Streamlit UI (URL will be shown in the terminal)
 3. Upload documents and chat!
@@ -89,8 +89,5 @@ All settings are in `config/settings.py` and `.env`.
 ## Contributing
 
 Pull requests and issues are welcome! Please open an issue for bugs, feature requests, or questions.
-
-## License
-
-MIT License
+\
 
